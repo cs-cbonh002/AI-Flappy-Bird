@@ -211,7 +211,6 @@ def main():
         if bird.y + bird.img.get_height() > 730:
             pass
 
-
         base.move()
         draw_window(win, bird, pipes, base, score)
 
